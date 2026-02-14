@@ -1,10 +1,15 @@
+import os
 from flask import Flask, jsonify
 
 app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return jsonify(message="Hello from DevOps project!")
+    secret_is_set = bool(os.getenv("APP_SECRET"))
+    return jsonify(
+        message="Hello from DevOps project!",
+        secret_configured=secret_is_set
+    )
 
 @app.get("/products")
 def products():

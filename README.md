@@ -21,3 +21,11 @@ Aplikacja:
 ## Testy
 Uruchom:
 python -m pytest
+
+
+## CI
+Workflow CI uruchamia testy automatycznie na Pull Requestach (GitHub Actions).
+
+## CD
+Workflow CD wdraża aplikację automatycznie na Azure po push/merge do main.
+Publiczny adres aplikacji: devops-projekt-marcin537-g4e5adh6c4eefpbb.germanywestcentral-01.azurewebsites.net.azurewebsites.net

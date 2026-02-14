@@ -1,4 +1,4 @@
-DevOps mini project (Flask) 🚀
+DevOps (Flask) 🚀
 =============================
 
 Prosta aplikacja webowa w Python (Flask) z testami + CI/CD na GitHub Actions oraz wdrożeniem do Azure.
@@ -13,7 +13,7 @@ Wymagania ✅
 
 ------------------------------------------------------------
 
-Uruchomienie lokalnie (Windows / PowerShell) ▶️
+Uruchomienie lokalnie ▶️
 ----------------------------------------------
 
 1) Aktywuj virtualenv:
